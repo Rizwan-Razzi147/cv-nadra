@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.perant{
+    width: 80%;
+    height: 160vh;
+    /* border: 2px solid #000; */
+    margin: auto;
+    background-color: #fff;
+}
+input{
+    width: 280px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    outline-width: 10px;
+    font-size: 16px;
+    color: black;
+    outline: none;
+   cursor: text;
+}
+#redio{
+    width: 20px;
+    display: block;
+    cursor: pointer;
+}
+label{
+    display: block;
+    left: 60px;
+    top: 55px;
+    position: relative;
+}
+hr{
+    width: 90%;
+    margin: auto;
+    height: 5px;
+    background-color: gray;
+    margin-top: 10px;
+}
+h1{
+    margin: 20px  0 0 20px;
+}
+p{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.text{
+    width: 80%;
+    height: 30px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 50px;
+}
+h2{
+    position: relative;
+    bottom: 27px;
+}
+button{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+    margin-left: 400px;
+    cursor: pointer;
+}
+#name1 , #email, #skill, #city, #religion, #age, #cnic{
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+}
